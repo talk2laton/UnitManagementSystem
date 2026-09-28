@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {
       "UnitSystem/1.0.0": {
@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitSystem.Testing\\UnitSystem.Testing.csproj",
+      "projectUniqueName": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem.Testing\\UnitSystem.Testing.csproj",
       "projectName": "UnitSystem.Testing",
-      "projectPath": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitSystem.Testing\\UnitSystem.Testing.csproj",
+      "projectPath": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem.Testing\\UnitSystem.Testing.csproj",
       "packagesPath": "C:\\Users\\lateef.a.kareem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitSystem.Testing\\obj\\",
+      "outputPath": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem.Testing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,16 +52,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\Packages": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.pkg.github.com/cyphercrescent/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitSystem\\UnitSystem.csproj": {
-              "projectPath": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitSystem\\UnitSystem.csproj"
+            "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem\\UnitSystem.csproj": {
+              "projectPath": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem\\UnitSystem.csproj"
             }
           }
         }
@@ -76,10 +77,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "imports": [
           "net461",
@@ -97,7 +99,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

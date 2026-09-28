@@ -10,11 +10,13 @@ namespace UnitSystem.Registry
         public static Dictionary<string, Unit> Units = new()
         {
             //Time Section
+            ["jiffy"] = new("jiffy", "jiffy", new DimensionVector { Time = 1 }, 3.33564095198e-11),
             ["s"]   = new("second", "s", new DimensionVector { Time = 1 }, 1.0),
             ["min"] = new("minute", "min", new DimensionVector { Time = 1 }, 60.0),
             ["hr"]  = new("hour", "hr", new DimensionVector { Time = 1 }, 3600.0),
             ["d"]   = new("day", "d", new DimensionVector { Time = 1 }, 86400.0),
             ["wk"]  = new("week", "wk", new DimensionVector { Time = 1 }, 604800.0),
+            ["fortnight"] = new("fortnight", "fortnight", new DimensionVector { Time = 1 }, 1209600.0),
             ["yr"]  = new("year", "yr", new DimensionVector { Time = 1 }, 31536000.0),
 
             // Length Section
@@ -55,15 +57,16 @@ namespace UnitSystem.Registry
             ["cd"] = new("candela", "cd", new DimensionVector { LuminousIntensity = 1 }, 1.0),
 
             // Area Section
-            ["m²"]    = new("square meter", "m²", new DimensionVector { Length = 2 }, 1.0),
+            ["m²"]    = new("square meter", "m^2", new DimensionVector { Length = 2 }, 1.0),
             ["ha"]    = new("hectare", "ha", new DimensionVector { Length = 2 }, 10000.0),
             ["ac"]    = new("acre", "ac", new DimensionVector { Length = 2 }, 4.0468564224e3),
             ["Darcy"] = new Unit("Darcy", "Darcy", new DimensionVector { Length = 2 }, 9.869233e-13),
 
             // Volume Section
-            ["m³"]    = new("cubic meter", "m³", new DimensionVector { Length = 3 }, 1.0),
+            ["m³"]    = new("cubic meter", "m^3", new DimensionVector { Length = 3 }, 1.0),
             ["ltr"]   = new("liter", "ltr", new DimensionVector { Length = 3 }, 0.001),
-            ["gal"]   = new("gallon", "gal", new DimensionVector { Length = 3 }, 0.003785411784),
+            ["gal"] = new("gallon", "gal", new DimensionVector { Length = 3 }, 0.003785411784),
+            ["firkin"] = new("firkin", "firkin", new DimensionVector { Length = 3 }, 0.034068706056),
             ["pt"]    = new("pint", "pt", new DimensionVector { Length = 3 }, 0.000473176473),
             ["qt"]    = new("quart", "qt", new DimensionVector { Length = 3 }, 0.000946352946),
             ["bbl"]   = new("barrel", "bbl", new DimensionVector { Length = 3 }, 0.158987294928),
@@ -97,6 +100,7 @@ namespace UnitSystem.Registry
 
             // Energy Section
             ["J"] = new("joule", "J", new DimensionVector { Mass = 1, Length = 2, Time = -2 }, 1.0),
+            ["erg"] = new("erg", "erg", new DimensionVector { Mass = 1, Length = 2, Time = -2 }, 1.0e-7),
             ["cal"] = new("calorie", "cal", new DimensionVector { Mass = 1, Length = 2, Time = -2 }, 4.184),
             ["btu"] = new("british thermal unit", "btu", new DimensionVector { Mass = 1, Length = 2, Time = -2 }, 1055.06),
 

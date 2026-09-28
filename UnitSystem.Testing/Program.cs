@@ -34,5 +34,6 @@ Console.WriteLine($"{rand = 8.31446261815324} J/mol/K is {UnitConverter.Convert(
 Console.WriteLine($"{rand = 8.31446261815324} J/mol/K is {UnitConverter.Convert(rand, "J/mol/K", "W*s/mol/°R")} W*s/mol/°R");
 Console.WriteLine($"{rand = 8.31446261815324} J/mol/K is {UnitConverter.Convert(rand, "J/mol/K", "ltr*bar/mol/°R")} ltr*bar/mol/°R");
 Console.WriteLine($"{rand = 8.31446261815324} J/mol/K is {UnitConverter.Convert(rand, "J/mol/K", "mmHg*gal/lbmol/°R")} mmHg*gal/lbmol/°R");
-Console.WriteLine($"{rand = 1000} kg/m^3 is {UnitConverter.Convert(rand, "kg/m^3", "g/pc^3")} pc^3");
+Console.WriteLine($"{rand = 1000} kg/m^3 is {UnitConverter.Convert(rand, "kg/m^3", "g/pc^3")} g/pc^3");
 Console.WriteLine($"{rand = 3e8} m/s is {UnitConverter.Convert(rand, "m/s", "AU/min")}  AU/min");
+Console.WriteLine($"{rand = 1} firkin-atm/µfortnight is {UnitConverter.Convert(rand, "firkin*atm/µfortnight", "erg/jiffy")}  erg/jiffy");

@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem.Testing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA0DC12-D947-1FBB-98AE-D13B6D5D52E4}|UnitSystem.Testing.csproj|c:\\users\\lateef.a.kareem\\documents\\github\\unitmanagementsystem\\unitsystem.testing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEA0DC12-D947-1FBB-98AE-D13B6D5D52E4}|UnitSystem.Testing.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C84C972-E55D-D54B-5EFB-C24AA5FFAD4F}|..\\UnitSystem\\UnitSystem.csproj|c:\\users\\lateef.a.kareem\\documents\\github\\unitmanagementsystem\\unitsystem\\services\\unitconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C84C972-E55D-D54B-5EFB-C24AA5FFAD4F}|..\\UnitSystem\\UnitSystem.csproj|c:\\users\\lateef.a.kareem\\documents\\github\\unitmanagementsystem\\unitsystem\\registry\\unitregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C84C972-E55D-D54B-5EFB-C24AA5FFAD4F}|..\\UnitSystem\\UnitSystem.csproj|c:\\users\\lateef.a.kareem\\documents\\github\\unitmanagementsystem\\unitsystem\\models\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C84C972-E55D-D54B-5EFB-C24AA5FFAD4F}|..\\UnitSystem\\UnitSystem.csproj|c:\\users\\lateef.a.kareem\\documents\\github\\unitmanagementsystem\\unitsystem\\models\\prefix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C84C972-E55D-D54B-5EFB-C24AA5FFAD4F}|..\\UnitSystem\\UnitSystem.csproj|c:\\users\\lateef.a.kareem\\documents\\github\\unitmanagementsystem\\unitsystem\\models\\dimensionvector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C84C972-E55D-D54B-5EFB-C24AA5FFAD4F}|..\\UnitSystem\\UnitSystem.csproj|c:\\users\\lateef.a.kareem\\documents\\github\\unitmanagementsystem\\unitsystem\\models\\basedimension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{97cd0cd6-1d77-4848-8b6e-dc82cdccc6d7}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitConverter.cs",
+              "DocumentMoniker": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem\\Services\\UnitConverter.cs",
+              "RelativeDocumentMoniker": "..\\UnitSystem\\Services\\UnitConverter.cs",
+              "ToolTip": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem\\Services\\UnitConverter.cs",
+              "RelativeToolTip": "..\\UnitSystem\\Services\\UnitConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T19:15:45.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitRegistry.cs",
+              "DocumentMoniker": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem\\Registry\\UnitRegistry.cs",
+              "RelativeDocumentMoniker": "..\\UnitSystem\\Registry\\UnitRegistry.cs",
+              "ToolTip": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem\\Registry\\UnitRegistry.cs",
+              "RelativeToolTip": "..\\UnitSystem\\Registry\\UnitRegistry.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAQwIMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T19:09:41.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseDimension.cs",
+              "DocumentMoniker": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem\\Models\\BaseDimension.cs",
+              "RelativeDocumentMoniker": "..\\UnitSystem\\Models\\BaseDimension.cs",
+              "ToolTip": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem\\Models\\BaseDimension.cs",
+              "RelativeToolTip": "..\\UnitSystem\\Models\\BaseDimension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T19:09:26.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DimensionVector.cs",
+              "DocumentMoniker": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem\\Models\\DimensionVector.cs",
+              "RelativeDocumentMoniker": "..\\UnitSystem\\Models\\DimensionVector.cs",
+              "ToolTip": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem\\Models\\DimensionVector.cs",
+              "RelativeToolTip": "..\\UnitSystem\\Models\\DimensionVector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T19:09:13.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Prefix.cs",
+              "DocumentMoniker": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem\\Models\\Prefix.cs",
+              "RelativeDocumentMoniker": "..\\UnitSystem\\Models\\Prefix.cs",
+              "ToolTip": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem\\Models\\Prefix.cs",
+              "RelativeToolTip": "..\\UnitSystem\\Models\\Prefix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T19:09:10.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem\\Models\\Unit.cs",
+              "RelativeDocumentMoniker": "..\\UnitSystem\\Models\\Unit.cs",
+              "ToolTip": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem\\Models\\Unit.cs",
+              "RelativeToolTip": "..\\UnitSystem\\Models\\Unit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T19:09:02.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem.Testing\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lateef.a.kareem\\Documents\\GitHub\\UnitManagementSystem\\UnitSystem.Testing\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T18:44:08.703Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1207,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
