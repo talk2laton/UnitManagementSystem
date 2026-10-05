@@ -18,13 +18,13 @@ A versatile, high-precision .NET unit conversion library capable of parsing and 
 Install via the .NET CLI:
 
 ```bash
-dotnet add package YourNamespace.UnitConversion
+dotnet add package UnitSystem
 ```
 
 Or via the NuGet Package Manager Console:
 
 ```powershell
-Install-Package YourNamespace.UnitConversion
+Install-Package UnitSystem
 ```
 
 ---
