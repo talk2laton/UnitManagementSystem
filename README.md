@@ -138,7 +138,7 @@ If the source and target unit expressions do not resolve to the same underlying 
 ```csharp
 try
 {
-    // Throws an exception: Cannot convert mass to velocity
+    // Throws an exception: Incompatible units
     double invalid = UnitConverter.Convert(10.0, "kg", "m/s");
 }
 catch (ArgumentException ex)
