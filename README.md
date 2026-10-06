@@ -1,6 +1,8 @@
 # UnitConverter
 
-A versatile, high-precision .NET unit conversion library capable of parsing and converting standard physical units, complex derived expressions, SI prefixes, and dimensional powers across engineering, scientific, and esoteric domains.
+A versatile, high-precision .NET unit conversion library developed by Mathematical Modelling Ltd. 
+It is capable of parsing and converting standard physical units, complex derived expressions, 
+SI prefixes, and dimensional powers across engineering, scientific, and esoteric domains.
 
 ---
 
