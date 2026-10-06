@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<LangVersion>14.0</LangVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<!-- NuGet Metadata -->
+		<PackageId>UnitSystem</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>LateefKareem</Authors>
+		<Company>MathematicalModelling</Company>
+		<Description>A lightweight .NET library for converting units across length, mass, temperature, energy, fluid density, and custom compound dimensions.</Description>
+		<PackageTags>units;conversion;measurements;math;physics;engineering</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+
+		<!-- Repository Info -->
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/talk2laton/UnitManagementSystem</RepositoryUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+</Project>

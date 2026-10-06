@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>UnitSystem.Testing</id>
+    <version>1.0.0</version>
+    <authors>UnitSystem.Testing</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="1524a24c45c96834ab340af2bd6bcf7242d1e4e1" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="UnitSystem" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\lateef.a.kareem\Documents\GitHub\UnitManagementSystem\UnitSystem.Testing\bin\Release\net10.0\UnitSystem.Testing.runtimeconfig.json" target="lib\net10.0\UnitSystem.Testing.runtimeconfig.json" />
+    <file src="C:\Users\lateef.a.kareem\Documents\GitHub\UnitManagementSystem\UnitSystem.Testing\bin\Release\net10.0\UnitSystem.Testing.dll" target="lib\net10.0\UnitSystem.Testing.dll" />
+  </files>
+</package>

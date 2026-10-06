@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>UnitSystem</id>
+    <version>1.0.0</version>
+    <authors>LateefKareem</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <description>A lightweight .NET library for converting units across length, mass, temperature, energy, fluid density, and custom compound dimensions.</description>
+    <tags>units conversion measurements math physics engineering</tags>
+    <repository type="git" url="https://github.com/talk2laton/UnitManagementSystem" commit="1524a24c45c96834ab340af2bd6bcf7242d1e4e1" />
+    <dependencies>
+      <group targetFramework="net10.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\lateef.a.kareem\Documents\GitHub\UnitManagementSystem\UnitSystem\bin\Release\net10.0\UnitSystem.dll" target="lib\net10.0\UnitSystem.dll" />
+    <file src="C:\Users\lateef.a.kareem\Documents\GitHub\UnitManagementSystem\UnitSystem\README.md" target="\README.md" />
+  </files>
+</package>
