@@ -1,4 +1,4 @@
-﻿
+
 
 using System.Collections.Generic;
 using UnitSystem.Models;
@@ -21,6 +21,8 @@ namespace UnitSystem.Registry
 
             // Length Section
             ["m"]  = new("meter", "m", new DimensionVector { Length = 1 }, 1.0),
+            ["rm"] = new("reservoir meter", "rm", new DimensionVector { Length = 1 }, 1.0),
+            ["sm"] = new("standard meter", "sm", new DimensionVector { Length = 1 }, 1.0),
             ["ft"] = new("foot", "ft", new DimensionVector { Length = 1 }, 0.3048),
             ["in"] = new("inch", "in", new DimensionVector { Length = 1 }, 0.0254),
             ["mi"] = new("mile", "mi", new DimensionVector { Length = 1 }, 1609.344),
@@ -63,21 +65,42 @@ namespace UnitSystem.Registry
             ["Darcy"] = new Unit("Darcy", "Darcy", new DimensionVector { Length = 2 }, 9.869233e-13),
 
             // Volume Section
-            ["m³"]    = new("cubic meter", "m^3", new DimensionVector { Length = 3 }, 1.0),
-            ["ltr"]   = new("liter", "ltr", new DimensionVector { Length = 3 }, 0.001),
-            ["gal"] = new("gallon", "gal", new DimensionVector { Length = 3 }, 0.003785411784),
+            ["m³"]     = new("cubic meter", "m^3", new DimensionVector { Length = 3 }, 1.0),
+            ["ltr"]    = new("liter", "ltr", new DimensionVector { Length = 3 }, 0.001),
+            ["gal"]    = new("gallon", "gal", new DimensionVector { Length = 3 }, 0.003785411784),
             ["firkin"] = new("firkin", "firkin", new DimensionVector { Length = 3 }, 0.034068706056),
-            ["pt"]    = new("pint", "pt", new DimensionVector { Length = 3 }, 0.000473176473),
-            ["qt"]    = new("quart", "qt", new DimensionVector { Length = 3 }, 0.000946352946),
-            ["bbl"]   = new("barrel", "bbl", new DimensionVector { Length = 3 }, 0.158987294928),
-            ["STB"]   = new("standard barrel", "STB", new DimensionVector { Length = 3 }, 0.158987294928),
-            ["scf"]   = new("standard cubic feet", "scf", new DimensionVector { Length = 3 }, 0.028316846592),
-            ["MMbbl"] = new("million barrel", "MMbbl", new DimensionVector { Length = 3 }, 1.58987294928e5),
-            ["Bbbl"]  = new("billion barrel", "Bbbl", new DimensionVector { Length = 3 }, 1.58987294928e8),
-            ["MMSTB"] = new("million standard barrel", "MMSTB", new DimensionVector { Length = 3 }, 1.58987294928e5),
-            ["BSTB"]  = new("billion standard barrel", "BSTB", new DimensionVector { Length = 3 }, 1.58987294928e8),
-            ["MMscf"] = new("million standard cubic feet", "MMscf", new DimensionVector { Length = 3 }, 2.8316846592e4),
-            ["Bscf"]  = new("billion standard cubic feet", "Bscf", new DimensionVector { Length = 3 }, 2.8316846592e7),
+            ["pt"]     = new("pint", "pt", new DimensionVector { Length = 3 }, 0.000473176473),
+            ["qt"]     = new("quart", "qt", new DimensionVector { Length = 3 }, 0.000946352946),
+
+            ["scc"] = new("standard cubic centimeter", "scc", new DimensionVector { Length = 3 }, 1e-6),
+            ["Mscc"] = new("thousand standard cubic centimeter", "Mscc", new DimensionVector { Length = 3 }, 1e-3),
+            ["MMscc"] = new("million standard cubic centimeter", "MMscc", new DimensionVector { Length = 3 }, 1),
+            ["Bscc"] = new("billion standard cubic centimeter", "Bscc", new DimensionVector { Length = 3 }, 1e3),
+
+            ["rcc"] = new("reservoir cubic centimeter", "rcc", new DimensionVector { Length = 3 }, 1e-6),
+            ["Mrcc"] = new("thousand reservoir cubic centimeter", "Mrcc", new DimensionVector { Length = 3 }, 1e-3),
+            ["MMrcc"] = new("million reservoir cubic centimeter", "MMrcc", new DimensionVector { Length = 3 }, 1),
+            ["Brcc"] = new("billion reservoir cubic centimeter", "Brcc", new DimensionVector { Length = 3 }, 1e3),
+
+            ["rb"]     = new("reservoir barrel", "rb", new DimensionVector { Length = 3 }, 0.158987294928),
+            ["Mrb"]   = new("thousand reservoir barrel", "Mrb", new DimensionVector { Length = 3 }, 1.58987294928e2),
+            ["MMrb"]  = new("million reservoir barrel", "MMrb", new DimensionVector { Length = 3 }, 1.58987294928e5),
+            ["Brb"]   = new("billion reservoir barrel", "Brb", new DimensionVector { Length = 3 }, 1.58987294928e8),
+
+            ["bbl"]    = new("barrel", "bbl", new DimensionVector { Length = 3 }, 0.158987294928),
+            ["Mbbl"]   = new("thousand barrel", "Mbbl", new DimensionVector { Length = 3 }, 1.58987294928e2),
+            ["MMbbl"]  = new("million barrel", "MMbbl", new DimensionVector { Length = 3 }, 1.58987294928e5),
+            ["Bbbl"]   = new("billion barrel", "Bbbl", new DimensionVector { Length = 3 }, 1.58987294928e8),
+
+            ["STB"]    = new("standard barrel", "STB", new DimensionVector { Length = 3 }, 0.158987294928),
+            ["MSTB"]   = new("thousand standard barrel", "MSTB", new DimensionVector { Length = 3 }, 1.58987294928e2),
+            ["MMSTB"]  = new("million standard barrel", "MMSTB", new DimensionVector { Length = 3 }, 1.58987294928e5),
+            ["BSTB"]   = new("billion standard barrel", "BSTB", new DimensionVector { Length = 3 }, 1.58987294928e8),
+
+            ["scf"]    = new("standard cubic feet", "scf", new DimensionVector { Length = 3 }, 0.028316846592),
+            ["Mscf"]   = new("thousand standard cubic feet", "Mscf", new DimensionVector { Length = 3 }, 2.8316846592e1),
+            ["MMscf"]  = new("million standard cubic feet", "MMscf", new DimensionVector { Length = 3 }, 2.8316846592e4),
+            ["Bscf"]   = new("billion standard cubic feet", "Bscf", new DimensionVector { Length = 3 }, 2.8316846592e7),
 
             // Watt Section
             ["W"] = new("watt", "W", new DimensionVector { Mass = 1, Length = 2, Time = -3 }, 1.0),
@@ -119,6 +142,18 @@ namespace UnitSystem.Registry
 
             // Inductance Section
             ["H"] = new("henry", "H", new DimensionVector { Mass = 1, Length = 2, Time = -2, ElectricCurrent = -2 }, 1.0),
+
+            // Frequency Section
+            ["Hz"] = new("hertz", "Hz", new DimensionVector { Time = -1 }, 1.0),
+
+            // Compressiblity Section
+            ["1/Pa"] = new("per pascal", "1/Pa", new DimensionVector { Mass = -1, Length = 1, Time = 2 }, 1.0),
+            ["1/bar"] = new("per bar", "1/bar", new DimensionVector { Mass = -1, Length = 1, Time = 2 }, 1e-5),
+            ["1/psi"] = new("per psi", "1/psi", new DimensionVector { Mass = -1, Length = 1, Time = 2 }, 1.450377377e-4),
+
+            // Viscosity Section
+            ["Pa*s"] = new("pascal second", "Pa*s", new DimensionVector { Mass = 1, Length = -1, Time = -1 }, 1.0),
+            ["cP"] = new("centipoise", "cP", new DimensionVector { Mass = 1, Length = -1, Time = -1 }, 0.001),
         };
 
         public static Dictionary<string, Prefix> Prefixes = new()
