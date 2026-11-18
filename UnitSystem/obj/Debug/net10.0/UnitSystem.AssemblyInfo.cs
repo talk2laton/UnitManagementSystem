@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A lightweight .NET library for converting units across length, mass, temperature," +
     " energy, fluid density, and custom compound dimensions.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1524a24c45c96834ab340af2bd6bcf7242d1e4e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3392310394ab3ff21bb58470892de2baf74cc8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("UnitSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UnitSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
